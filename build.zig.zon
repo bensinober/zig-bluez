@@ -1,0 +1,16 @@
+.{
+    .name = .zig_bluez,
+    .version = "0.0.1",
+    .fingerprint = 0x978befd120fe3d42, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "lib",
+        "include",
+        "LICENSE",
+        "README.md",
+    },
+}
